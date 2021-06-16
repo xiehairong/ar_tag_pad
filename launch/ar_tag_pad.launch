@@ -1,0 +1,13 @@
+<launch>
+
+    <node pkg="ar_tag_pad" type="ar_tag_pad" name="ar_tag_pad" respawn="false" output="screen" required="false" >
+        <param name="src_marker_size" type="double" value="9.0" />
+        <param name="output_marker_size" type="double" value="13.0" />
+        <param name="src_image_path" type="string" value="/home/aicrobo/tags" />
+        <param name="id_max" type="int" value="30" />
+    </node>
+
+</launch>
+
+
+
